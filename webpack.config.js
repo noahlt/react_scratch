@@ -1,7 +1,7 @@
 module.exports = {
   entry: './code.js',
   output: {
-    filename: 'bundle.min.js',
+    filename: 'assets/bundle.min.js',
   },
   module: {
     loaders: [

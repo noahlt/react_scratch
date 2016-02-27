@@ -4,7 +4,7 @@ var ReactDOM = require('react-dom');
 var App = React.createClass({
   render: function() {
     return <div>
-      Hello, world.
+      Hello, hello, hello!
       <Menu items={['foo', 'bar', 'baz']}/>
     </div>;
   },
@@ -15,7 +15,7 @@ var Menu = React.createClass({
     var makeHandler = (i) => (evt) => console.log('clicked item:', i);
     return <ul>
       {this.props.items.map((item, i) =>
-        <li onClick={makeHandler(i)}>{item}</li>
+        <li onClick={makeHandler(item)}>{item}</li>
       )}
     </ul>;
   }

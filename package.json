@@ -7,10 +7,12 @@
     "babel-loader": "^6.2.3",
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "build": "webpack -d"
+    "build": "webpack -d",
+    "serve": "webpack-dev-server --content-base assets/"
   },
   "dependencies": {
     "react": "^0.14.7",
