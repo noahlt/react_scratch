@@ -1,7 +1,10 @@
+var path = require('path');
+
 module.exports = {
   entry: './code.js',
+  target: 'web',
   output: {
-    filename: 'assets/bundle.min.js',
+    filename: 'bundle.min.js',
   },
   module: {
     loaders: [

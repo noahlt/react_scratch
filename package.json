@@ -12,6 +12,7 @@
   },
   "scripts": {
     "build": "webpack -d",
+    "watch": "webpack -d --watch",
     "serve": "webpack-dev-server --content-base assets/"
   },
   "dependencies": {
